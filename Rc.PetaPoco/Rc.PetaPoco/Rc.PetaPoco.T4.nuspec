@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <metadata xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <id>Rc.PetaPoco.T4</id>
+    <title>Rc.PetaPoco.T4</title>
+    <version>5.1.259</version>
+    <authors>Simon</authors>
+    <owners>Simon</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Rc.PetaPoco.T4</description>
+    <tags>Rc.PetaPoco.T4</tags>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Data" />
+      <frameworkAssembly assemblyName="System.Configuration" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="Models\Generated\*.tt" target="Content\Models\Generated" />
+    <file src="Models\Generated\PetaPoco*.ttinclude" target="Content\Models\Generated" />
+  </files>
+</package>
